@@ -1,0 +1,29 @@
+.WhoWeAre {
+  display: flex;
+  background-color: #2e4b85;
+  justify-content: space-evenly;
+}
+.promise_heading,
+.promise_paragraph {
+  text-align: center;
+}
+.promise_heading {
+  margin-top: 85px;
+  margin-bottom: 0;
+  font-size: 45px;
+  color: #2e4b85;
+  font-weight: 700;
+}
+.promise_paragraph {
+  font-size: 20px;
+  margin-bottom: 90px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.822);
+}
+.team {
+  width: 100%;
+}
+.image {
+  object-fit: cover;
+  /* width: 90rem; */
+}
