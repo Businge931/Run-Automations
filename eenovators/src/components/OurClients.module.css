@@ -1,5 +1,6 @@
 .OurClients_heading {
-  color: #2e4b85;
+  /* color: #2e4b85; */
+  color: #1d9dd8;
   text-align: center;
   margin-bottom: 0;
   padding-top: 50px;
@@ -41,4 +42,22 @@ footer {
   cursor: pointer;
   color: rgba(255, 255, 255, 0.562);
   padding: 0 5px;
+}
+.footer_link:hover,
+.footer_link:active {
+  color: #1d9dd8;
+}
+.footer_icons {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.footer_icon {
+  height: 2rem;
+  width: 2.2rem;
+  cursor: pointer;
+}
+.footer_icon:hover,
+.footer_icon:active {
+  color: #1d9dd8;
 }

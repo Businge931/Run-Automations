@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;1,200&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 .welcome_page {
   background-image: url("../images/image_17095_full.jpg");
   height: 80vh;
@@ -7,19 +9,13 @@
   position: relative;
 }
 .Welcome_div__container {
-  /* opacity: 0.9; */
   position: absolute;
   top: 15%;
   left: 30%;
-  border-left: 25px solid rgb(46, 75, 133);
+  /* border-left: 25px solid rgb(46, 75, 133); */
+  border-left: 25px solid #1d9dd8;
 }
-/* .overlay {
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(128, 128, 128, 0.815))
-    to right;
-  opacity: 0.5;
-} */
+
 #welcome {
   font-weight: 800;
   font-size: 36px;
@@ -31,7 +27,8 @@
   font-family: "Lato", Helvetica, Arial, Lucida, sans-serif;
   font-weight: 800;
   font-size: 70px;
-  color: #2e4b85 !important;
+  /* color: #2e4b85 !important; */
+  color: #1d9dd8 !important;
   letter-spacing: 0em;
   line-height: 1.1em;
   margin: 0;
@@ -81,13 +78,15 @@
 button {
   height: 2.5rem;
   width: 20rem;
-  background-color: #00457a;
+  /* background-color: #00457a; */
+  background-color: #1d9dd8;
   color: white;
   font-size: 19px;
   border: none;
   text-align: center;
   cursor: pointer;
   font-weight: 200;
+  border-radius: 5px;
 }
 .button {
   display: flex;
@@ -109,7 +108,8 @@ button {
   font-weight: 800;
   text-transform: uppercase;
   font-size: 48px;
-  color: #2e4b85;
+  /* color: #2e4b85; */
+  color: #1d9dd8;
   letter-spacing: 1px;
   margin-bottom: 30px;
 }
@@ -119,4 +119,5 @@ button {
   padding: 10px;
   margin: 20px 250px;
   color: #474747;
+  font-family: "Lato", sans-serif;
 }

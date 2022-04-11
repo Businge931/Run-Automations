@@ -1,7 +1,7 @@
-import Description from "./Description";
 import styles from "./OurModel.module.css";
-import { BsHouseDoor } from "react-icons/bs";
 import classes from "./Description.module.css";
+
+import { BsHouseDoor } from "react-icons/bs";
 import { IoMdCheckboxOutline } from "react-icons/io";
 import { MdOutlineLibraryBooks } from "react-icons/md";
 
@@ -13,10 +13,11 @@ const OurModel = (props) => {
         CLIENT FOCUSED AND SOLUTION ORIENTED
       </p>
       <div className={styles.ourModel_descriptions}>
-        <Description
-          icon={<BsHouseDoor className={classes.icon} />}
-          title="ENERGY PROJECTS"
-        >
+        <div className={styles.ourModel__description}>
+          <div className={styles.ourModel__top}>
+            <BsHouseDoor className={styles.icon} />
+            <h4>ENERGY PROJECTS</h4>
+          </div>
           <ul>
             <li>
               <p>Eagles Energy Management Programme</p>
@@ -40,11 +41,13 @@ const OurModel = (props) => {
               <p>Water Monitoring</p>
             </li>
           </ul>
-        </Description>
-        <Description
-          icon={<IoMdCheckboxOutline className={classes.icon} />}
-          title="ENERGY TRAINING"
-        >
+        </div>
+
+        <div className={styles.ourModel__description}>
+          <div className={styles.ourModel__top}>
+            <IoMdCheckboxOutline className={styles.icon} />
+            <h4>ENERGY TRAINING</h4>
+          </div>
           <ul>
             <li>
               <p>Internationally Certified Energy Programmes</p>
@@ -68,11 +71,13 @@ const OurModel = (props) => {
               <p>Energy Awareness Programmes for Schools</p>
             </li>
           </ul>
-        </Description>
-        <Description
-          icon={<MdOutlineLibraryBooks className={classes.icon} />}
-          title="ENERGY CONSULTING"
-        >
+        </div>
+
+        <div className={styles.ourModel__description}>
+          <div className={styles.ourModel__top}>
+            <MdOutlineLibraryBooks className={styles.icon} />
+            <h4>ENERGY CONSULTING</h4>
+          </div>
           <ul>
             <li>
               <p>Energy Finance Consulting</p>
@@ -93,7 +98,7 @@ const OurModel = (props) => {
               <p>Energy Knowledge Management</p>
             </li>
           </ul>
-        </Description>
+        </div>
       </div>
     </div>
   );

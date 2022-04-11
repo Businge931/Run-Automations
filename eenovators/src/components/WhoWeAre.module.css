@@ -1,7 +1,11 @@
 .WhoWeAre {
-  display: flex;
-  background-color: #2e4b85;
-  justify-content: space-evenly;
+  /* background-color: #2e4b85; */
+  background-color: rgba(255, 255, 255, 0.075);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  padding: 0 100px;
 }
 .promise_heading,
 .promise_paragraph {
@@ -11,7 +15,8 @@
   margin-top: 85px;
   margin-bottom: 0;
   font-size: 45px;
-  color: #2e4b85;
+  /* color: #2e4b85; */
+  color: #1d9dd8;
   font-weight: 700;
 }
 .promise_paragraph {
@@ -27,3 +32,5 @@
   object-fit: cover;
   /* width: 90rem; */
 }
+
+/* ************************************* */

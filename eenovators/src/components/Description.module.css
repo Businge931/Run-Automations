@@ -1,25 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
 .description {
   height: auto;
-  width: 18rem;
+  width: 22rem;
   text-align: center;
-  padding: 20px;
-  background-color: white;
-  color: #474747;
-  margin-top: 80px;
-  margin-bottom: 80px;
+  background-color: #1d9dd8;
+  color: white;
+  margin-top: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-radius: 12px;
+  font-family: "Roboto", sans-serif;
+
+  perspective: 150rem;
+}
+
+.card__side {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  backface-visibility: hidden;
+  transition: all 0.7s ease-in-out;
 }
 h4 {
-  margin-top: 20px;
-}
-.description p {
-  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 400;
+  letter-spacing: 1.1px;
 }
 
 .icon {
   height: 2.6rem;
   width: 2.6rem;
-  color: #2e4b85;
+  color: white;
+  margin-top: 5px;
+}
+.hover_description {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.quality_image {
+  height: 100%;
+  width: 100%;
+  border-radius: 12px;
+  transition: all 1s;
+}
+.quality_image__ontop_div {
+  position: absolute;
+  height: 3rem;
+  width: 10rem;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  top: 75%;
+  left: 10%;
+}
+
+.card_content {
+  transform: rotateY(180deg);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_content p {
+  font-size: 16px;
+  padding: 0 5px;
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.description:hover .card_content {
+  transform: rotateY(0deg);
+}
+.description:hover .quality_image__div {
+  transform: rotateY(180deg);
 }

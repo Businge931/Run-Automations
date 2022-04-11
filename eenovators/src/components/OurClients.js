@@ -35,6 +35,9 @@ import img33 from "../images/1-1.jpg";
 import img34 from "../images/cc7.jpg";
 import img35 from "../images/cc17.jpg";
 
+import { FaFacebookF } from "react-icons/fa";
+import { BsTwitter } from "react-icons/bs";
+
 const OurClients = () => {
   return (
     <>
@@ -88,7 +91,10 @@ const OurClients = () => {
           <p>|</p>
           <p className={styles.footer_link}>Terms of Use</p>
         </div>
-        <div></div>
+        <div className={styles.footer_icons}>
+          <FaFacebookF className={styles.footer_icon} />
+          <BsTwitter className={styles.footer_icon} />
+        </div>
       </footer>
     </>
   );

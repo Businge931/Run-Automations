@@ -36,10 +36,18 @@ const Welcome = () => {
       <div className={styles.description}>
         <h2>WHO WE ARE</h2>
         <p>
-          Eenovators is an Energy Consulting firm that is dedicated to offering
+          {/* Eenovators is an Energy Consulting firm that is dedicated to offering
           innovative and reliable energy efficiency solutions. Our products and
           services are rooted in engineering and driven by innovation, passion,
-          state of the art equipment and world experience.
+          state of the art equipment and world experience.**************** */}
+          Powered by the most advanced IOT technologies, and a vast engineering,
+          marketing and administrative team, we have become the pioneers in
+          design and production of reliable automation systems accross the
+          country. Run Automations is committed to leveraging technology to
+          simplify any aspect of your business, "Name the problem, and we solve
+          it!". We have evolved from a company that was mainly technology
+          oriented to one which is consumer centred, ensuring delivery of
+          platforms optimized for use by both clients and administrators.
         </p>
       </div>
     </>
